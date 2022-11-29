@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  color: black;
+}
+div > h5 {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.nav-items {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-overflow: hidden;
+  position: relative;
+  float: center;
+  top: 35px;
+  inline-size: 100px;
+  width: 450px;
+}
+.nav-items > h5 {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+}
+.nav-items > h5:hover {
+  color: tomato;
+}
+nav [src="./images/logo.svg"] {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-overflow: hidden;
+  position: relative;
+  float: left;
+  top: 30px;
+  left: 25px;
+  inline-size: 100px;
+  width: 70px;
+}
+nav [src="./images/actions.svg"] {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-overflow: hidden;
+  position: relative;
+  float: right;
+  top: 30px;
+  left: -50px;
+  inline-size: 100px;
+  width: 200px;
+}
+.intro-section {
+  display: inline-block;
+  width: 99%;
+  height: 500px;
+  text-align: center;
+}
+.left-section {
+  position: relative;
+  top: -190px;
+  left: 0px;
+  width: 97%;
+}
+
+.intro-section > div {
+  display: inline-block;
+  width: 49%;
+  height: 500px;
+  text-align: center;
+  overflow: visible;
+}
+.left-section > h3 {
+  position: relative;
+  left: 10px;
+  top: 5px;
+  text-align: left;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 100;
+  overflow: visible;
+}
+.left-section > h3 > img {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 4px;
+  inline-size: 100px;
+  width: 35px;
+}
+.left-section > h1 {
+  display: inline-block;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 12px;
+  left: 10px;
+  text-align: left;
+  font-size: 40px;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+  overflow: visible;
+  width: 120%;
+}
+.sub-headline {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.sub-headlines {
+  width: 181px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  left: 90px;
+  text-align: left;
+  overflow: visible;
+  font-size: 19px;
+  font-family: Calibri Light;
+}
+.sub-headline > img {
+  display: inline-block;
+  position: relative;
+  left: -8px;
+  top: 5px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: tomato;
+}
+.text {
+  position: relative;
+  top: 45px;
+  left: 10px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 9px;
+  opacity: 0.4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: visible;
+}
+.action-btns {
+  position: relative;
+  top: 35px;
+  left: 10px;
+  height: 80px;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  margin: 20px;
+}
+.action-btn {
+  color: white;
+  background-color: tomato;
+  font-size: 12px;
+  position: relative;
+  top: 0px;
+  left: -13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.action-btn:hover {
+  color: tomato;
+  background-color: white;
+  border: 1px solid tomato;
+}
+.right-section {
+  position: relative;
+  top: 0px;
+  left: 70px;
+}
+img[src="./images/headphones.jpg"] {
+  inline-size: 100px;
+  width: 340px;
+}
+.headphone-div {
+  position: relative;
+  top: -130px;
+  left: -25px;
+}
+.discount {
+  display: inline-block;
+  position: relative;
+  top: 350px;
+  left: -140px;
+  inline-size: 100px;
+  width: 100px;
+}
+.discount-content {
+  position: relative;
+  top: 274px;
+  left: -140px;
+  font-family: arial;
+  font-size: 15px;
+  color: white;
+}
+.discount-content > h4 {
+  font-size: 10px;
+}
+.dots > div {
+  position: relative;
+  top: -130px;
+  left: -26px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 8px;
+}
+.yellow-dot {
+  background-color: yellow;
+}
+.black-dot {
+  background-color: black;
+}
+.tomato-dot {
+  background-color: tomato;
+}
+.right-section > .action-btn {
+  position: relative;
+  top: -125px;
+  left: -23px;
+  background-color: tomato;
+}
+.action-btn:hover {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+}
